@@ -27,6 +27,7 @@ Master repository for the gitraf self-hosted git server ecosystem. Contains all 
 | [gitraf-server](gitraf-server/) | Web interface for browsing repositories |
 | [gitraf-pages](gitraf-pages/) | Static site hosting from git repos |
 | [gitraf-deploy](gitraf-deploy/) | Interactive deployment script |
+| [gitraf-backup](https://git.rafayel.dev/gitraf-backup) | R2 backup system (optional module) |
 
 ## Quick Start
 
@@ -48,6 +49,7 @@ curl -sSL https://raw.githubusercontent.com/RafayelGardishyan/gitraf-deploy/main
 - **Rate limiting** - nginx-level protection against abuse
 - **One-click updates** - update server from the web interface
 - **Lightweight** - runs on a small VPS with minimal resources
+- **R2 Backup** - optional nightly sync to Cloudflare R2 (VM or Kubernetes CronJob)
 
 ## Clone with Submodules
 
