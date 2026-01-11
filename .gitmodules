@@ -1,0 +1,12 @@
+[submodule "gitraf"]
+	path = gitraf
+	url = https://git.rafayel.dev/gitraf.git
+[submodule "gitraf-server"]
+	path = gitraf-server
+	url = https://git.rafayel.dev/gitraf-server.git
+[submodule "gitraf-pages"]
+	path = gitraf-pages
+	url = https://git.rafayel.dev/gitraf-pages.git
+[submodule "gitraf-deploy"]
+	path = gitraf-deploy
+	url = https://git.rafayel.dev/gitraf-deploy.git

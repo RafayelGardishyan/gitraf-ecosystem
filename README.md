@@ -43,6 +43,10 @@ curl -sSL https://raw.githubusercontent.com/RafayelGardishyan/gitraf-deploy/main
 - **Optional public access** for open source projects
 - **Static site hosting** - deploy sites from repos to `{repo}.yourdomain.com`
 - **Git LFS support** with S3-compatible storage
+- **GitHub mirroring** - automatic sync to GitHub with SSH key management
+- **Submodule support** - full display with commit hash, URL, and external links
+- **Rate limiting** - nginx-level protection against abuse
+- **One-click updates** - update server from the web interface
 - **Lightweight** - runs on a small VPS with minimal resources
 
 ## Clone with Submodules
