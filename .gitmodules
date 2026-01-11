@@ -10,3 +10,6 @@
 [submodule "gitraf-deploy"]
 	path = gitraf-deploy
 	url = https://git.rafayel.dev/gitraf-deploy.git
+[submodule "gitraf-infra"]
+	path = gitraf-infra
+	url = git@rafayel-dev-hetzner.tail34f3b.ts.net:gitraf-infra.git
