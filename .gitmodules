@@ -13,3 +13,6 @@
 [submodule "gitraf-infra"]
 	path = gitraf-infra
 	url = git@rafayel-dev-hetzner.tail34f3b.ts.net:gitraf-infra.git
+[submodule "backup"]
+	path = backup
+	url = git@rafayel-dev-hetzner.tail34f3b.ts.net:gitraf-backup.git
