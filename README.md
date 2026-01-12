@@ -27,15 +27,36 @@ Master repository for the gitraf self-hosted git server ecosystem. Contains all 
 | [gitraf-server](gitraf-server/) | Web interface for browsing repositories |
 | [gitraf-pages](gitraf-pages/) | Static site hosting from git repos |
 | [gitraf-deploy](gitraf-deploy/) | Interactive deployment script |
+| [gitraf-infra](gitraf-infra/) | Kubernetes manifests and IaC |
 | [gitraf-backup](https://git.rafayel.dev/gitraf-backup) | R2 backup system (optional module) |
 
 ## Quick Start
+
+### Option 1: Interactive Script (VM/VPS)
 
 Deploy on a fresh Ubuntu server:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/RafayelGardishyan/gitraf-deploy/main/deploy.sh | sudo bash
 ```
+
+### Option 2: Kubernetes (k3s)
+
+Deploy using Kustomize:
+
+```bash
+# Clone gitraf-infra
+git clone https://github.com/RafayelGardishyan/gitraf-infra.git
+cd gitraf-infra
+
+# Edit configs (replace placeholders with your values)
+# See kubernetes/gitraf-server/configmap.yaml and kubernetes/nginx/configmap.yaml
+
+# Deploy all components
+kubectl apply -k kubernetes/base/
+```
+
+See [gitraf-infra](gitraf-infra/) for detailed Kubernetes deployment instructions.
 
 ## Features
 
